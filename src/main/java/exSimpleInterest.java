@@ -16,7 +16,6 @@ public class exSimpleInterest {
         int time = sc.nextInt();
 
         double amount = prncple*(1 + ((rate/100)*time));
-        //System.out.printf("After %d years at %f /% rate, the investment will be worth $0.2f.", time, rate, amount);
         System.out.println("After " + time + " years at " + rate + "% rate, the investment will be worth $" + (int)amount + ".");
     }
 }
